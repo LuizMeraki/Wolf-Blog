@@ -8,7 +8,7 @@ export const About = () => {
       <div className="max-width">
         <TitleContainer title="Sobre" />
         <article className={styles.description_container}>
-          <p>Este projeto "Mini Blog" foi desenvolvido por
+          <p>Este projeto foi desenvolvido por
             <a href="https://portfolio-luizmeraki.vercel.app/" target="_blank"> Luiz Meraki </a>
             a fim de colocar em prática  e demonstrar conhecimentos nas tecnologias da minha stack, e neste projeto eu utilizei as seguintes tecnologias e ferramentas:</p>
           <ul>

@@ -1,4 +1,4 @@
-<h1 align="center">Mini Blog 🐸</h1>
+<h1 align="center">Wolf Blog 🐺</h1>
 
 <div align="center">
   <img width="80%" src="https://user-images.githubusercontent.com/75648386/195358397-e9bb9960-1839-4d90-bdda-241bb36e7f4c.gif">
@@ -18,7 +18,7 @@
 
 # Sobre
 
-<p>Eu desenvolvi o projeo Mini Blog para fins didáticos pessoais, afim de pôr em prática os conhecimentos que eu adquiri dos meus estudos; podendo assim, demonstrar e comprovar conhececimento nas <a href="#tecnologias">tecnologias</a> da minha stack.</p>
+<p>Eu desenvolvi o projeo Wolf Blog para fins didáticos pessoais, afim de pôr em prática os conhecimentos que eu adquiri dos meus estudos; podendo assim, demonstrar e comprovar conhececimento nas <a href="#tecnologias">tecnologias</a> da minha stack.</p>
 
 <p>O projeto não é para uso do dia a dia, por isso não se trata de um blog completo, porém com este projeto pude utilizar vários conceitos que são empregados no dia a dia de um programador no mercado de trabalho. Segue uma lista com os principais conceitos aplicados neste projeto:</p>
 
@@ -37,7 +37,7 @@
 
 ### Entre na plataforma e faça seu próprio post!
 
-Link: <a href="https://mini-blog-luizmeraki.vercel.app/" target="_blank">Mini Blog</a>
+Link: <a href="https://wolf-blog-luizmeraki.vercel.app/" target="_blank">Wolf Blog</a>
 
 <br>
 
