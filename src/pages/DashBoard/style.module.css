@@ -1,0 +1,17 @@
+.label_container {
+  width: 100%;
+}
+
+.label_container {
+  margin: 3.2em 0 2.3em;
+  padding: 0 12px 5px;
+  border-bottom: 1.9px solid #43c043;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label_container label {
+  font-size: 1.1em;
+  font-weight: 700;
+}

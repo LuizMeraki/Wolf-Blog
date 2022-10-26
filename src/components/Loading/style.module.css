@@ -1,0 +1,32 @@
+.loading_container {
+  height: 52vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading_container svg {
+  font-size: 6em;
+  z-index: -1;
+  animation: colorMix .9s infinite;
+}
+
+@keyframes colorMix {
+  0% {
+    color: #85ff4c;
+  }
+  30% {
+    color: #55fff6;
+  }
+  50% {
+    color: #4146e8;
+  }
+  70% {
+    color: #c41bd0;
+  }
+  100% {
+    color: #d03c3c;
+    transform: rotate(360deg);
+  }
+}

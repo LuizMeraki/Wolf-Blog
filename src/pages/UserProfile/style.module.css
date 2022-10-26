@@ -1,0 +1,49 @@
+.userPhotoContainer,
+.userInfosContainer,
+.userActions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.userPhotoContainer {
+  margin-bottom: 4.2em;
+}
+
+.userPhotoContainer img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.userPhotoContainer p {
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-top: .9em;
+}
+
+.userActions button,
+.userActions a {
+  max-width: 300px;
+  margin: .5em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userActions a:first-of-type {
+  width: 100%;
+  background-color: #43bb39;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.userActions button span,
+.userActions a span {
+  margin-left: 5px;
+}

@@ -1,0 +1,13 @@
+.OutlinedButton a {
+  font-size: .9em;
+  color: #43c043;
+  text-decoration: none;
+  padding: 3px 17px;
+  border: 1.8px solid #43c043;
+  transition: .5s;
+}
+
+.OutlinedButton a:hover {
+  color: #ddd;
+  background-color: #43c043;
+}

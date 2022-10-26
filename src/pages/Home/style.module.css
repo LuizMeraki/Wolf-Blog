@@ -1,0 +1,56 @@
+.alert_message_container {
+  margin-bottom: 8em;
+}
+
+.homeWolfSVG {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7.5em;
+}
+
+.homeWolfSVG svg {
+  font-size: 6em;
+  z-index: -1;
+  animation: colorMix 12s infinite ease-in;
+}
+
+@keyframes colorMix {
+  0% {
+    color: #d03c3c;
+    transform: translateY(-10px);
+  }
+  14% {
+    color: #eeff53;
+  }
+  28% {
+    color: #85ff4c;
+  }
+  42% {
+    color: #55fff6;
+    transform: translateY(10px);
+  }
+  56% {
+    color: #4146e8;
+  }
+  70% {
+    color: #c41bd0;
+  }
+  84% {
+    color: #d03c70;
+  }
+  100% {
+    color: #d03c3c;
+    transform: translateY(-10px);
+  }
+}
+
+.alert_message_container p {
+  color: #b7b7b7;
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: clamp(1.2em, 3vw, 1.8em);
+  font-weight: 200;
+  text-align: center;
+}

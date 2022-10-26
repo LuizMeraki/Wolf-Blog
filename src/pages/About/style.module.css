@@ -1,0 +1,56 @@
+.description_container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.about p {
+  text-align: justify;
+  max-width: 600px;
+  margin: 0 auto 1.3em;
+}
+
+.description_container p a {
+  color: #71ff71;
+}
+
+.about ul {
+  width: fit-content;
+  margin: 2em auto;
+}
+
+.about ul li, 
+.about ul li a {
+  color: #71ff71;
+}
+
+.about ul ::marker {
+  color: #fff;
+}
+
+.green_word {
+  color: #71ff71;
+  font-weight: 600;
+}
+
+.social_medias_container {
+  margin-top: 3.5em;
+}
+
+.social_medias_container p,
+.social_medias_container h3 {
+  text-align: center;
+}
+
+.social_medias_container h3 {
+  margin-bottom: 1em;
+}
+
+.about a {
+  text-decoration: none;
+  transition: 500ms;
+}
+
+
+.about a:hover {
+  color: #3b8e3b;
+}

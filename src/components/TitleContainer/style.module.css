@@ -1,0 +1,27 @@
+.titleMainContainer {
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.titleContainer {
+  color: #e1e1e1de;
+  font-size: clamp(.9em, 4vw, 1.1em);
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.descriptionContainer,
+.highlightText {
+  max-width: 550px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0 auto;
+}
+
+.highlightText {
+  color: #43c043;
+  font-size: 1.150em;
+  font-weight: 400;
+}

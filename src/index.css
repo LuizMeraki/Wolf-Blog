@@ -1,0 +1,174 @@
+* {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-white-font-color: #ffffffde;
+  --primary-grey-font-color: #e1e1e1de;
+
+  color: var(--primary-white-font-color);
+  background-color: #181818;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #43c043;
+  border-radius: 12px;
+}
+
+::selection {
+  background-color: #8243c08f;
+}
+
+/* Containers */
+
+main {
+  width: 100%;
+  min-height: 76.7vh;
+  padding: 6.5em 1.8em 2.8em;
+  margin-bottom: 4em;
+}
+
+.max-width {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* GLOBAL */
+
+a {
+  color: var(--primary-white-font-color);
+  text-decoration: none;
+}
+
+.image-preview {
+  width: 100%;
+  margin: 1.5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-preview p {
+  color: #dddddd;
+  font-size: .850em;
+  font-style: oblique;
+  margin-bottom: .8em;
+}
+
+.image-preview img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.back-home-button-container {
+  text-align: center;
+  margin-top: 5em;
+}
+
+/* Forms */
+
+form {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+form label span {
+  color: #43c043;
+  margin-bottom: 1px;
+}
+
+form input,
+textarea {
+  max-width: 100%;
+  max-height: 250px;
+  color: var(--primary-grey-font-color);
+  font-size: 1em;
+  background-color: transparent;
+  padding: 8px 10px;
+  border-bottom: 3px solid #343333;
+  border: none;
+  border-bottom: 3px solid #343333;
+  outline: none;
+}
+
+form input:focus,
+form textarea:focus {
+  background-color: transparent;
+  transition: 500ms;
+}
+
+::placeholder {
+  font-size: .9em;
+  font-style: italic;
+}
+
+.redirect-user {
+  margin-bottom: 8px;
+}
+
+.redirect-user span {
+  font-size: .850em;
+  font-weight: 300;
+  color: var(--primary-white-font-color);
+}
+
+.redirect-user a {
+  color: #3dab3d;
+}
+
+button {
+  width: 100%;
+  font-size: 1em;
+  font-weight: 600;
+  color: #cfcfcfde;
+  background-color: #379e37;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+button:disabled {
+  color: #9e4037;
+  background-color: #9e40374e;
+  cursor: not-allowed;
+  transition: 800ms;
+}
+
+button:active {
+  background-color: #1f5c1f;
+}
+
+.red-button {
+  background-color: #ba4242;
+}
+
+.red-button:active {
+  background-color: #823030;
+}
+
+.submit-btn-container {
+  margin-top: 2.5em;
+}

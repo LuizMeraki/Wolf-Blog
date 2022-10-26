@@ -1,0 +1,43 @@
+.search_post {
+  transform: translateX(-50%);
+  position: absolute;
+  top: 5px;
+  left: 50%;
+}
+
+.search_post form {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: .2em 1em;
+  border: 1px solid #3f3f3f;
+  border-radius: 1.3em;
+}
+
+.search_post input {
+  font-size: .9em;
+  font-weight: 300;
+  padding: 0;
+  border: none;
+}
+
+.search_post input::placeholder {
+  text-align: center;
+}
+
+.search_post button {
+  height: 25px;
+  padding: 0 !important;
+  background-color: transparent;
+}
+
+.search_post button svg {
+  color: #747474de;
+}
+
+@media (max-width: 970px){
+  .search_post {
+    position: static;
+    transform: translateX(0);
+  }
+}
