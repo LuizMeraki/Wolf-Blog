@@ -32,7 +32,7 @@ export const useFetchPosts = (postsCollection, search) => {
           where("tags", "array-contains", search)
         );
       } else {
-        queryValue = await query(collectionRef, orderBy("createdAt", "desc"));
+        queryValue = await query(collectionRef);
       }
 
       await onSnapshot(queryValue, (querySnapshot) => {
