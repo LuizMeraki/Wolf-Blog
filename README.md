@@ -1,7 +1,7 @@
 <h1 align="center">Wolf Blog 🐺</h1>
 
 <div align="center">
-  <img width="80%" src="https://user-images.githubusercontent.com/75648386/195358397-e9bb9960-1839-4d90-bdda-241bb36e7f4c.gif">
+  <img width="80%" src="https://user-images.githubusercontent.com/75648386/198326544-0a96afe4-0264-41d7-b62e-f005f85ee3ed.gif">
 </div>
 
 <br>
@@ -111,18 +111,15 @@ Link: <a href="https://wolf-blog-luizmeraki.vercel.app/" target="_blank">Wolf Bl
 
 # Imagens do projeto 
 
-<span>Página home (feed) onde estão os posts dos usuários</span>
-
-<div align="center">
-  <img width="50%" src="https://user-images.githubusercontent.com/75648386/195383313-88a759f4-08fc-4260-b533-305618d8b6ce.png">
-</div>
+<h3 align="center">Principais páginas</h3>
 
 <br>
 
-<span>Página Dasboard onde você pode gerenciar os seus posts:</span>
-
 <div align="center">
- <img width="50%" src="https://user-images.githubusercontent.com/75648386/195384267-16c43a8d-30f0-46eb-9cdc-f102fd152d39.png">
+  <img width="50%" src="https://user-images.githubusercontent.com/75648386/198325575-a54054e5-b975-4536-8a6d-51035bc0ccf0.jpeg">
+  <img width="50%" src="https://user-images.githubusercontent.com/75648386/198324245-42c41cfb-1c94-494e-8b99-ec92b47c4c3c.jpeg">
+  <img width="50%" src="https://user-images.githubusercontent.com/75648386/198323783-959d48b2-3f1a-4e80-80da-037f71b57719.jpeg">
+  <img width="50%" src="https://user-images.githubusercontent.com/75648386/198324561-14babb18-f298-4249-af2c-5cdc858ae9f4.jpeg">
 </div>
 
 <br>
